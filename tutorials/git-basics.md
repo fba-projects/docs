@@ -54,6 +54,7 @@ git checkout -b tutorials/git-basics/<본인이름>
 원격 저장소에 작업한 내용을 저장하도록 변경 내역을 "밀어 올리는" 작업
 
 
+<<<<<<< HEAD
 어디로 밀어올릴지에 대해서 설정을 해 줘야 한다
     git push --set-upstream origin tutorials/git-basics
 
@@ -61,3 +62,8 @@ git checkout -b tutorials/git-basics/<본인이름>
 
 
 6. 
+=======
+5. 
+
+
+>>>>>>> f519007fe118ed7072a5c912fb9388c7b6869dd3
