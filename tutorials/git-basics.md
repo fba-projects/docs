@@ -72,6 +72,13 @@ upstream 설정은 branch 별로 설정한다. 한 번 upstream을 설정하고 
 여기까지 완료되었으면 remote repository(=https://github.com/fba-projects/docs)의 각자 생성한 branch에 변경내역이 반영되어 있다.
 
 ### 5. pull request
+어디로 밀어올릴지에 대해서 설정을 해 줘야 한다
+    git push --set-upstream origin tutorials/git-basics
+
+5. pull request
+
+
+6.
 
 branch에 반영된 내용은 전체 프로젝트에 반영되기 적절한지 여부를 검토한 후 검토를 통과한다면, 프로젝트 전체에 변경내역을 반영할 수 있다. 이 검토 및 병합요청을 보내는 것을 pull request (PR이라고도 함)라고 한다.
 
