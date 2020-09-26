@@ -22,7 +22,7 @@ git clone https://github.com/fba-projects/docs
 git fetch
 git pull
 ```
-> 2020.09.25일에 작성한 부분
+> 2020.09.26일에 작성한 부분
 
 ### 2. branch
 
