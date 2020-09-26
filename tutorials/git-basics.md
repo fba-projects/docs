@@ -52,34 +52,4 @@ git commit -m "added contents"
 commit을 수행할 때에는 항상 메시지를 입력해야 한다.
 
 checkout을 통해서 master branch 이동
-
-
-### 4. push 
-로컬 repository에서 변경한 내용을 원격(remote) repository에 반영하도록 변경 내역을 "밀어 올리는" 작업이다.
-
-원격 repository는 햣 
-어디로 밀어올릴지에 대해서 설정을 해 줘야 한다
-```
-git push --set-upstream origin tutorials/git-basics/<본인이름>
-```
-
-origin이라는 repository의 tutorials/git-basics/<본인이름>라는 branch에 변경내역을 반영한다는 듯이다.
-
-upstream 설정은 branch 별로 설정한다. 한 번 upstream을 설정하고 나면 그 다음부터는 ```git push```명령어만 입력하더라고 commit을 push할 때마다 같은 upstream 설정을 사용하여 push가 실행된다.
-
-(tip. upstream설정 없이 git push명령어를 입력하면, 에러메시지에서 적절한 명령어를 제안한다. 제안받은 명령어를 그대로 다시 활용하면 쉽게 push할 수 있다.)
-
-여기까지 완료되었으면 remote repository(=https://github.com/fba-projects/docs)의 각자 생성한 branch에 변경내역이 반영되어 있다.
-
-### 5. pull request
-어디로 밀어올릴지에 대해서 설정을 해 줘야 한다
-    git push --set-upstream origin tutorials/git-basics
-
-5. pull request
-
-
-6.
-
-branch에 반영된 내용은 전체 프로젝트에 반영되기 적절한지 여부를 검토한 후 검토를 통과한다면, 프로젝트 전체에 변경내역을 반영할 수 있다. 이 검토 및 병합요청을 보내는 것을 pull request (PR이라고도 함)라고 한다.
-
-merge pull request를 가진 사람이 pull request를 수락하면, 각자의 branch의 내용이 master branch의 내용으로 병합이 된다. 병합된 이후 master의 내용을 사용하게 되는 사람은 병합된 내용을 포함한 소스코드를 사용하게 된다.
+되는 사람은 병합된 내용을 포함한 소스코드를 사용하게 된다.
